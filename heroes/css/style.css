@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto & display = swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.discounts{
+    background-color: #1CD1B0;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headHeroes{
+    height: 101px;
+    padding: 20px;
+    background-color: #00669F;
+    font-size: 40px;
+    line-height: 46px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.likeheart{
+    position: absolute;
+    left: 20px;
+    top: 14px;
+}
+
+.batmanCharacter img{
+    border-radius: 50%;
+    position: absolute;
+    left: 90px;
+    top: 130px;
+
+}
+
+.centeredMovement{
+    display: inline-block;
+    position: relative;
+    border: solid 1px #F3F3F3;
+    margin-top:  130px;
+    margin-left: 120px;
+    width: 302px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #F3F3F3;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.batmanParagraph{
+    padding: 20px;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+
+.tittleBatman{
+    text-transform: uppercase;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button{
+    text-align: center;
+    color: #F3F3F3;
+    background-color: #00669F;
+    font-size: 15px;
+    line-height: 17px;
+    font-family: 'Roboto', sans-serif;
+    padding: 15px 35px;
+    border: 1px #00669F solid;
+    margin: 20px 0px 20px 90px;
+}
+
+.tittleHarley{
+    margin-top: 61.5px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer{
+    background-color: #00669F;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF9F9;
+    padding: 15px 15px;
+    margin-top: 130px;
+}

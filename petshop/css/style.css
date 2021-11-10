@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+}
+
+.languageCurrency{
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    line-height: 11px;
+    font-weight: 400;
+}
+
+.menuLogo{
+    background-color: #F0A83E;
+}
+
+.propertyImage img{
+    width: 100%;
+}
+
+.propertiesList{
+    list-style: none;
+}
+.propertiesList a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.firstPart{
+    color: #3C2313;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.secondPart{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+}
+
+.finalProperties{
+    background-color: #3C2313;
+}
+
+.reservedProperties{
+    background-color:#222222;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 11px;
+}
+
+
+
+.subscribeProperties{
+    background-color: #F0A83E;
+}
+
+.finalDocument{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.finalDocumentmin{
+    font-size: 10px;
+    color: #8A8787;
+    font-weight: 700;
+    line-height: 11px;
+}
