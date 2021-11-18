@@ -1,26 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
+/*Este codigo es para poder poner color a la letra dentro del input
+y el de focus cuando den click se borre la letra que esta como 
+placeholder:::  */
+
+::-webkit-input-placeholder { color: #A0A0A0;} 
+:focus::-webkit-input-placeholder{color:transparent;}
+
+
 .languageCurrency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #222222;
     color: #F3F3F3;
+    height: 20px;
     font-size: 10px;
     line-height: 11px;
     font-weight: 400;
+    color: #F3F3F3;
+}
+
+.languageofert{
+    padding-left: 140px;
+}
+
+.languageandmoney{
+    display: flex;
+    padding-right: 150px;
+    
+}
+
+.languaje{
+    padding-right: 10px;
 }
 
 .menuLogo{
+    height: 62px;
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+.menuLogo div{
+    padding-left: 90px;
+}
+
 
 .propertyImage img{
     width: 100%;
 }
 
+
 .propertiesList{
     list-style: none;
+    display: flex;
+    padding-right: 120px;
 }
+
+.propertiesList li{
+    padding-left: 20px;
+}
+
+.discountFeederPadd{
+    padding: 15px 0 15px 0;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+.positionRandA button{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    height: 49px;
+    width: 149px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
 .propertiesList a{
     text-decoration: none;
     color: #FFFFFF;
@@ -45,21 +108,102 @@
 
 .finalProperties{
     background-color: #3C2313;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 284px;
+    padding-left: 30px;
+}
+
+.footerPropertiesIcons{
+    display: flex;
+    padding: 20px 0 0 20px;
+}
+.finalDocumentMain{
+    padding-left: 20px;
+}
+
+.CatandDogFinal{
+    position: absolute;
+    right: 80px;
+    bottom: 132.5px;
+}
+
+.finalFirstPart{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #FFFFFF;
+}
+
+.finalSecundPart{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 23.44px;
+    color: #F0A83E;
 }
 
 .reservedProperties{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:#222222;
     color: #FFFFFF;
     text-align: center;
     font-size: 10px;
     font-weight: 700;
     line-height: 11px;
+    height: 20px;
 }
 
 
 
 .subscribeProperties{
     background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.subscribePropertiesCorreo{
+    display: flex;
+    align-items: center;
+}
+
+.subscribePropertiesInpuBut{
+    padding-right: 50px;
+}
+
+.subscribePropertiesInpuBut input{
+    width: 350px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+
+.subscribePropertiesInpuBut button{
+    width: 70px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    font-size: 9px;
+    line-height: 10.55px;
+    font-weight: 700;
+}
+
+.subscribePropertiesCorreo p{
+    color: #FFFFFF;
+    padding-left: 10px;
+    font-size: 20px;
+    line-height: 23.44px;
+    font-weight: 700;
+
+
 }
 
 .finalDocument{
@@ -75,3 +219,132 @@
     font-weight: 700;
     line-height: 11px;
 }
+
+.propertyImage{
+    position: relative;
+}
+.positionRandA{
+    text-align: center;
+    position: absolute;
+    bottom: 200px;
+    right: 60px;
+}
+
+.absolutePleasure{
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    line-height: 35.16px;
+    color: #3C2313;
+    border-radius: 10px;
+}
+
+.centerFootprint{
+    text-align: center;
+}
+
+.centerFootprint img{
+    margin: 20px 0 20px 0;
+}
+
+.organizeLinks{
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 25px 0;
+}
+
+.organizeLinks a{
+    text-decoration: none;
+    color: #666666;
+    font-size: 15px;
+    line-height: 17.58px;
+    padding: 0 15px 0 15px;
+
+}
+
+h1{
+    font-size: 40px;
+    line-height: 46.88px;
+    color: #3C2313;
+}
+
+.productCards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.productCards div{
+    margin: 20px 10px 70px 10px;
+    background-color: #FBFAF6;
+}
+
+.priceColor{
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #F0A83E;
+    padding-bottom: 10px;
+
+}
+
+.productName{
+    font-size: 15px;
+    line-height: 17.58px;
+    color: #3C2313;
+}
+
+.flexibleContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexibleContact input{
+    width: 340px;
+    height: 40px;
+    background-color: #3C2313;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 10px;
+    font-size: 9px;
+    line-height: 10.55;
+    color: white;
+    padding-left: 15px;
+
+}
+
+
+
+.flexibleContact h2{
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 29.3px;
+    color: #3C2313;
+}
+
+.flexibleContactButtonReset{
+    background-color: #8A8787;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.75px;
+    border: none;
+    width: 110px;
+    height: 34px;
+}
+
+.flexibleContactButtonSent{
+    background-color: #F0A83E;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18.75px;
+    border: none;
+    width: 110px;
+    height: 34px;
+}
+
+.flexibleContact div{
+    margin: 30px 0 75px 0;
+}
+
