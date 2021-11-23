@@ -271,7 +271,8 @@ h1{
 .productCards{
     display: flex;
     justify-content: center;
-    text-align: center;
+    text-align: center; 
+    flex-wrap: wrap;
 }
 
 .productCards div{
@@ -348,3 +349,6 @@ h1{
     margin: 30px 0 75px 0;
 }
 
+@media (max-width: 685px) {
+    
+}
