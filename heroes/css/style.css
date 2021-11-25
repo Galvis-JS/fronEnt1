@@ -203,3 +203,57 @@ footer{
     background-color: #1CD1B0;
     font-weight: 700;
 }
+
+
+/* Finalizo con Estilado de pagina Login*/
+/* Empiezo con Estilado de pagina Añadir SuperHeroes*/
+
+.centerMainSpace{
+    display: flex;
+    justify-content: center;
+}
+
+.formAddCard{
+    width: 600px;
+}
+
+hr{
+    width: 100%;
+}
+
+.addCardsInCenter{
+    background-color: #00669F;
+    width: 954px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectionField{
+    display: flex;
+}
+
+.checkProperties{
+    display: flex;
+    flex-direction: column;
+}
+
+.nameText{
+    display: flex;
+    justify-content: space-around;
+}
+.nameText div{
+    display: flex;
+    flex-direction: column;
+}
+
+.dateAndFile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dateAndFile div{
+    display: flex;
+    flex-direction: column;
+}

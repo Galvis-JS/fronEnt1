@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Añadir Heroes</title>
+</head>
+<body>
+    <header>
+        <div class="discounts">
+            <p>20% de descuento en todos los productos!</p>
+        </div>
+        <div class="headHeroes">
+            <img src="../img/logoTienda.png" alt="">
+            <p>Cards Heroes</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="views/contacto.html">Contacto</a></li>
+                <li><a href="views/registro.html">Registrarme</a></li>
+                <li><a href="views/login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="centerMainSpace">
+        <section class="addCardsInCenter">
+            <h1>Añadí tu super!</h1>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form class="formAddCard" action="/results" method="post">
+                <div class="nameText">
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="Nombre" id="nombre">
+                    </div>
+                    <div>
+                        <label for="especie">Especie</label>
+                        <input type="text" name="Especie" id="especie">
+                    </div>
+                </div>
+                <div class="dateAndFile">
+                    <div>
+                        <label for="fecha">Fecha</label>
+                        <input type="date" name="Fecha" id="fecha">
+                    </div>
+                    <div>
+                        <label for="file">Agregar Foto</label>
+                        <input type="file" name="File" id="file">
+                    </div>
+                </div>
+                <div class="selectionField">
+                    <textarea name="Descripcion" id="" cols="30" rows="10"></textarea>
+                        <div>
+                            <div class="checkProperties">
+                                <p>Poderes</p>
+                                <div>
+                                    <input type="checkbox" name="Volar" value="Volar" id="volar">
+                                    <label for="volar">Volar</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="SuperInteligencia" value="SuperInteligencia" id="superInteligencia">
+                                    <label for="superInteligencia">SuperInteligencia</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="Laser" value="Vista Laser" id="laser">
+                                    <label for="laser">Vista de rayo láser</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="Billetera" value="Billetera" id="billetera">
+                                    <label for="billetera">Billetera gorda</label>
+                                </div>
+                            </div>
+                            <hr>
+                            <div>
+                                <p>Tipo de personaje</p>
+                                <div>
+                                    <input type="radio" name="Heroe" value="Heroe" id="heroe">
+                                    <label for="heroe">Héroe / Heroina</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="Villano" value="Villano" id="villano">
+                                    <label for="villano">Villano / Villana</label>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+                <input type="submit" value="Añadir">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+    </footer>
+</body>
+</html>
